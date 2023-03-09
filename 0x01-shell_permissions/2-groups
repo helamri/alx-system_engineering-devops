@@ -1,5 +1,2 @@
 #!/bin/bash
-USERNAME=$(id -un)
-GROUPS=$(id -Gn $USERNAME)
-echo "Groups for user ${USERNAME}:"
-echo "${GROUPS}"
+groups
