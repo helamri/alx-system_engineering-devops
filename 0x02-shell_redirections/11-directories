@@ -1,0 +1,2 @@
+#!/bin/bash
+shopt -s dotglob; echo $(($(find . -type d | wc -l) - 1))
